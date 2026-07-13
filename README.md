@@ -29,7 +29,11 @@ This system digitizes core CID workflows — officer records, criminal databases
 
 ---
 
+<img src="screenshots/dashboard.png" width="800" alt="Dashboard">
+<img src="screenshots/apis.png" width="800" alt="Apis">
+<img src="screenshots/apis2.png" width="800" alt="Apis">
 <img src="screenshots/about.png" width="800" alt="AboutPage">
+<img src="screenshots/footet.png" width="800" alt="Footer">
 
 
 ---
