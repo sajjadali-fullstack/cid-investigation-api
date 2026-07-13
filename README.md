@@ -41,4 +41,21 @@ This system digitizes core CID workflows — officer records, criminal databases
 
 ---
 
-## 📂 Project Structure
+---
+
+## 🔗 API Endpoints
+
+| Endpoint             | Method | Description                     |
+|-----------------------|--------|----------------------------------|
+| `/officers-api/`       | GET    | List all officers               |
+| `/criminals-api/`      | GET    | List all criminals              |
+| `/cases-api/`          | GET    | List all registered cases       |
+| `/evidences-api/`      | GET    | List all evidence records       |
+| `/witnesses-api/`      | GET    | List all witness statements     |
+| `/admin/`              | -      | Django Admin panel              |
+
+### 🔍 Example: Search & Ordering
+
+GET /criminals-api/?search=John&ordering=age
+GET /officers-api/?search=Inspector
+GET /evidences-api/?search=RDX Explosive Residue
