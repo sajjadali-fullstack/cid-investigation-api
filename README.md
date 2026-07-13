@@ -59,3 +59,76 @@ This system digitizes core CID workflows — officer records, criminal databases
 GET /criminals-api/?search=John&ordering=age
 GET /officers-api/?search=Inspector
 GET /evidences-api/?search=RDX Explosive Residue
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/<your-username>/cid-investigation-api.git
+cd cid-investigation-api
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run migrations
+python manage.py makemigrations
+python manage.py migrate
+
+# Create superuser (for admin panel)
+python manage.py createsuperuser
+
+# Run the development server
+python manage.py runserver
+```
+
+Visit `http://127.0.0.1:8000/` for the landing page and `http://127.0.0.1:8000/admin/` for the admin panel.
+
+---
+
+## 🧩 DRF Configuration
+
+```python
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 3,
+    'DEFAULT_FILTER_BACKENDS': (
+        'rest_framework.filters.SearchFilter',
+        'rest_framework.filters.OrderingFilter',
+    )
+}
+```
+
+---
+
+## 🚀 Future Improvements
+
+- [ ] Add authentication (JWT / Token-based)
+- [ ] Add Create/Update/Delete endpoints (currently List-only)
+- [ ] Add file upload support for evidence (photos, CCTV footage)
+- [ ] Dockerize the project
+- [ ] Add unit tests
+
+---
+
+## 👨‍💻 Developer
+
+**Sajjad Ali** — Full Stack Python Developer
+
+- 🔗 [LinkedIn](https://www.linkedin.com/in/sajjadali-fullstack/)
+- 🌐 [Portfolio](https://sajjadali-fullstack-portfolio.netlify.app/)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License — free to use for learning and portfolio purposes.
+
+---
+
+⭐ If you found this project useful, consider giving it a star on GitHub!
