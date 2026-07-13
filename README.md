@@ -29,6 +29,11 @@ This system digitizes core CID workflows — officer records, criminal databases
 
 ---
 
+<img src="screenshots/about.png" width="800" alt="AboutPage">
+
+
+---
+
 ## 🛠️ Tech Stack
 
 | Layer          | Technology                          |
