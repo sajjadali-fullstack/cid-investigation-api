@@ -126,12 +126,19 @@ REST_FRAMEWORK = {
 
 ---
 
-## 👨‍💻 Developer
+<h2 align="center">👨‍💻 Developer</h2>
 
-**Sajjad Ali** — Full Stack Python Developer
+<p align="center">
 
-- 🔗 [LinkedIn](https://www.linkedin.com/in/sajjadali-fullstack/)
-- 🌐 [Portfolio](https://sajjadali-fullstack-portfolio.netlify.app/)
+<b>Sajjad Ali</b><br>
+Full Stack Python Developer
+
+<br><br>
+
+<a href="https://www.linkedin.com/in/sajjadali-fullstack/">LinkedIn</a> •
+<a href="https://sajjadali-fullstack-portfolio.netlify.app/">Portfolio</a>
+
+</p>
 
 ---
 
