@@ -71,35 +71,6 @@ GET /evidences-api/?search=RDX Explosive Residue
 
 ---
 
-## ⚙️ Installation & Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/<your-username>/cid-investigation-api.git
-cd cid-investigation-api
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run migrations
-python manage.py makemigrations
-python manage.py migrate
-
-# Create superuser (for admin panel)
-python manage.py createsuperuser
-
-# Run the development server
-python manage.py runserver
-```
-
-Visit `http://127.0.0.1:8000/` for the landing page and `http://127.0.0.1:8000/admin/` for the admin panel.
-
----
-
 ## 🧩 DRF Configuration
 
 ```python
