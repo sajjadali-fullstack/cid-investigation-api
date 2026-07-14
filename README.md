@@ -1,6 +1,10 @@
-# 🛡️ CID Investigation REST API
+<h1 align="center">🛡️ CID Investigation REST API</h1>
 
-<p align="center" width="20px">
+<p align="center">
+A Crime Investigation Department (CID) Management System built with Django & Django REST Framework.
+</p>
+
+<p align="center">
   <img src="static/images/CID_masthead_logo_new.jpg" alt="CID Investigation REST API Banner">
 </p>
 
