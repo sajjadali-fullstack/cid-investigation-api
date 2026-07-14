@@ -28,14 +28,34 @@ This system digitizes core CID workflows — officer records, criminal databases
 - 🎨 **Landing Page** built with Bootstrap 5 + Font Awesome showing live stats
 
 ---
-<div class="container" style="align-center">
-    
-<img src="screenshots/dashboard.png" width="800" alt="Dashboard">
-<img src="screenshots/apis.png" width="800" alt="Apis">
-<img src="screenshots/apis2.png" width="800" alt="Apis">
-<img src="screenshots/about.png" width="800" alt="AboutPage">
-<img src="screenshots/footer.png" width="800" alt="Footer">
+## 📸 Project Screenshots
 
+<div align="center">
+
+### 🏠 Dashboard
+<img src="screenshots/dashboard.png" alt="Dashboard" width="900"/>
+
+<br><br>
+
+### 🔗 API Endpoints
+<img src="screenshots/apis.png" alt="API Endpoints" width="900"/>
+
+<br><br>
+
+### 📋 API Documentation
+<img src="screenshots/apis2.png" alt="API Documentation" width="900"/>
+
+<br><br>
+
+### ℹ️ About Page
+<img src="screenshots/about.png" alt="About Page" width="900"/>
+
+<br><br>
+
+### 📄 Footer
+<img src="screenshots/footer.png" alt="Footer" width="900"/>
+
+</div>
 </div>
 
 ---
