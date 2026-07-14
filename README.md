@@ -1,5 +1,9 @@
 # 🛡️ CID Investigation REST API
 
+<p align="center">
+  <img src="static/images/CID_masthead_logo_new.jpg" alt="CID Investigation REST API Banner">
+</p>
+
 A **Crime Investigation Department (CID) Management System** built with **Django** and **Django REST Framework (DRF)**. This project provides RESTful APIs to manage Officers, Criminals, Cases, Evidence, and Witnesses — with built-in search, filtering, ordering, and pagination.
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
