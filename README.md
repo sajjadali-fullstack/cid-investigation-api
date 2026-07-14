@@ -28,7 +28,7 @@ This system digitizes core CID workflows — officer records, criminal databases
 - 🎨 **Landing Page** built with Bootstrap 5 + Font Awesome showing live stats
 
 ---
-<div class="container">
+<div class="container" style="align-center">
     
 <img src="screenshots/dashboard.png" width="800" alt="Dashboard">
 <img src="screenshots/apis.png" width="800" alt="Apis">
