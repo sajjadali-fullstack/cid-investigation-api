@@ -1,6 +1,6 @@
 # 🛡️ CID Investigation REST API
 
-<p align="center">
+<p align="center" width="20px">
   <img src="static/images/CID_masthead_logo_new.jpg" alt="CID Investigation REST API Banner">
 </p>
 
